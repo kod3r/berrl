@@ -32,5 +32,20 @@ python -m SimpleHTTPServer
 
 Then you should be ready to Map!
 
-#### Example of berrl
+#### Simple Example of berrl
+Below shows an example of berrl thats is about as simple as I can make it taking a csv file of shark attacks and turning it into geojson parsing and loading the appropriate HTML
+
+```python
+import berrl as bl
+
+apikey='your api key'
+
+a=bl.make_points('sharks.csv')
+bl.parselist(a,'sharks.geojson') # simply writes a list of lines to file name location
+
+bl.loadparsehtml(['sharks.geojson'],apikey)
+```
+
+##### Output of Map Below
+![]()
 
