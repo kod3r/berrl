@@ -23,7 +23,7 @@ Prereqs include:
 * pandas/numpy
 
 ##### Usage Notes
-To use berrl the way its currently implemented I recommend using Safari due to being the easiest to use local http references and on the safari bar navigate to Develop>Disable Local File Restrictions to allow for local references. 
+To use berrl the way its currently implemented I recommend using Safari due to being the easiest to use local http references and on the safari bar navigate to "Develop>Disable Local File Restrictions" to allow for local file references. 
 
 As you might have guessed this means you will have to setup a local http server which luckily isn't hard just navigate to the correct directory in terminal that you will be executing your script in and start the HTTP server with the following command in terminal:
 ```
@@ -31,4 +31,6 @@ python -m SimpleHTTPServer
 ```
 
 Then you should be ready to Map!
+
+##### Example of berrl
 
