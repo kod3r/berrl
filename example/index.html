@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<title>PipeGeoJSON Demo</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src="https://api.mapbox.com/mapbox.js/v2.2.4/mapbox.js"></script>
+
+
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+<div id='map'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoibXVycGh5MjE0IiwiYSI6ImNpam5kb3puZzAwZ2l0aG01ZW1uMTRjbnoifQ.5Znb4MArp7v3Wwrn6WFE6A';
+var map = L.mapbox.map('map', 'mapbox.streets',{
+    center: [37, -0.09],
+    zoom: 8
+    });
+
+// omnivore will AJAX-request this file behind the scenes and parse it: 
+
+// note that there are considerations:
+// - The file must either be on the same domain as the page that requests it,
+//   or both the server it is requested from and the user's browser must
+//   support CORS.
+
+// Internally this uses the toGeoJSON library to decode the KML file
+// into GeoJSON
+
+
+
+
+
+
+
+function addDataToMap1(data, map) {
+    var dataLayer = L.geoJson(data);
+    dataLayer.addTo(map);
+}
+$.getJSON('http://localhost:8000/sharks.geojson',function(data) { addDataToMap1(data,map); });function addDataToMap1(data, map) {
+    var dataLayer = L.geoJson(data, {
+        onEachFeature: function(feature, layer) {            var popupText = "<p><small><b>Area</b>: " + feature.properties['Area']+"</small></p>";             var popupText = popupText + "<p><small><b>Activity</b>: " + feature.properties['Activity']+"</small></p>";             var popupText = popupText + "<p><small><b>month</b>: " + feature.properties['month']+"</small></p>";             var popupText = popupText + "<p><small><b>href</b>: " + feature.properties['href']+"</small></p>";             var popupText = popupText + "<p><small><b>Location</b>: " + feature.properties['Location']+"</small></p>";             var popupText = popupText + "<p><small><b>year</b>: " + feature.properties['year']+"</small></p>";             var popupText = popupText + "<p><small><b>Injury</b>: " + feature.properties['Injury']+"</small></p>";             var popupText = popupText + "<p><small><b>Type</b>: " + feature.properties['Type']+"</small></p>";             var popupText = popupText + "<p><small><b>Fatal</b>: " + feature.properties['Fatal']+"</small></p>";             var popupText = popupText + "<p><small><b>href formula</b>: " + feature.properties['href formula']+"</small></p>";             var popupText = popupText + "<p><small><b>latitude</b>: " + feature.properties['latitude']+"</small></p>";             var popupText = popupText + "<p><small><b>Name</b>: " + feature.properties['Name']+"</small></p>";             var popupText = popupText + "<p><small><b>Country</b>: " + feature.properties['Country']+"</small></p>";             var popupText = popupText + "<p><small><b>Age</b>: " + feature.properties['Age']+"</small></p>";             var popupText = popupText + "<p><small><b>Date</b>: " + feature.properties['Date']+"</small></p>";             var popupText = popupText + "<p><small><b>Time</b>: " + feature.properties['Time']+"</small></p>";             var popupText = popupText + "<p><small><b>Investigator or Source</b>: " + feature.properties['Investigator or Source']+"</small></p>";             var popupText = popupText + "<p><small><b>day</b>: " + feature.properties['day']+"</small></p>";             var popupText = popupText + "<p><small><b>longitude</b>: " + feature.properties['longitude']+"</small></p>";             var popupText = popupText + "<p><small><b>Sex</b>: " + feature.properties['Sex']+"</small></p>";             var popupText = popupText + "<p><small><b>Year</b>: " + feature.properties['Year']+"</small></p>";             var popupText = popupText + "<p><small><b>pdf</b>: " + feature.properties['pdf']+"</small></p>";             var popupText = popupText + "<p><small><b>Case Number</b>: " + feature.properties['Case Number']+"</small></p>";             var popupText = popupText + "<p><small><b>Species</b>: " + feature.properties['Species']+"</small></p>"; 				layer.setIcon(L.mapbox.marker.icon({'marker-color': '#1766B5'}))
+	            layer.bindPopup(popupText, {autoPan:false} ); }
+        });
+    dataLayer.addTo(map);
+}
+
+</script>
+
+
+</body>
+</html>

@@ -340,7 +340,10 @@ def getlatlong(row,header):
 					long=0
 					print lat,long
 			'''
-	return [float(lat),float(long)]
+	if not lat=='' and not long=='':
+		return [float(lat),float(long)]
+	else:
+		return [0.0,0.0]
 
 
 #makes a point geojson file
