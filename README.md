@@ -52,7 +52,7 @@ bl.loadparsehtml(['sharks.geojson'],apikey)
 #### A little more Advanced Example
 Say we want to iterate through all unique values in a field and style them a certain way based on each unique value in said field. We also only want the most dense areas of shark attacks to map and also want to display the squares in which these densities reside. We could do this pretty easily using berrl. 
 
-** NOTE: that unique values outnumbered unique colors so not all activities were iterated through this is mainly just an example of what you could do. **
+**NOTE: that unique values outnumbered unique colors (at least currently) so not all activities were iterated through this is mainly just an example of what you could do.**
 
 ```python
 import berrl as bl
