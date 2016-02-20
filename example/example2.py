@@ -4,7 +4,7 @@ import numpy as np
 import itertools
 
 # please, if possible, don't abuse this key its not difficult to get your own
-apikey='pk.eyJ1IjoibXVycGh5MjE0IiwiYSI6ImNpam5kb3puZzAwZ2l0aG01ZW1uMTRjbnoifQ.5Znb4MArp7v3Wwrn6WFE6A'
+apikey='your api key'
 
 # all the colors currently available for input
 colors=['default','light green', 'blue', 'red', 'yellow', 'light blue', 'orange', 'purple', 'green', 'brown', 'pink']
