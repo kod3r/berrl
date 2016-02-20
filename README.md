@@ -19,7 +19,7 @@ To setup currently download this repository navigate to it and enter the followi
 python setup.py install
 ```
 Prereqs include:
-* [geohash]() (which I think requires XCode this isn't my module just the one I used for the pipegeohash module)
+* [geohash](https://github.com/hkwi/python-geohash) (which I think requires XCode this isn't my module just the one I used for the pipegeohash module)
 * pandas/numpy
 
 ##### Usage Notes
