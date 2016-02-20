@@ -117,4 +117,5 @@ bl.loadparsehtml(filenames,apikey,colorkey='color')
 ```
 
 ##### Output Map Below
-![]()
+![](https://cloud.githubusercontent.com/assets/10904982/13198831/795c37a2-d7e1-11e5-9733-584f3f544831.png)
+![](https://cloud.githubusercontent.com/assets/10904982/13198832/7c66f176-d7e1-11e5-986d-0da285c97cc1.png)
