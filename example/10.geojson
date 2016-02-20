@@ -1,0 +1,41 @@
+{ "type": "FeatureCollection",
+	"features": [
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -81.2711546, 
+                     29.8439828
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "brown", 
+              "Activity": "casting a net", 
+              "Investigator or Source": "WTEV 47, 9/1/2013", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/2013.09.01.a-Baker.pdf", 
+              "GEOHASH": "djq", 
+              "Location": "St Augustine Beach, St Johns County", 
+              "year": 2013, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Lacerations to left calf", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/2013.09.01.a-Baker.pdf", 
+              "Date": " 01-Sep-2013", 
+              "Name": "Connor Baker", 
+              "Country": "USA", 
+              "Age": "9", 
+              "latitude": 29.8439828, 
+              "Time": "12h00", 
+              "month": "Sep", 
+              "day": 1.0, 
+              "longitude": -81.2711546, 
+              "Sex": "M", 
+              "Year": 2013, 
+              "pdf": "2013.09.01.a-Baker.pdf", 
+              "Case Number": "2013.09.01.a", 
+              "Species": "4' shark"
+       }
+	}
+	]
+}

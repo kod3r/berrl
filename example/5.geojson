@@ -1,0 +1,41 @@
+{ "type": "FeatureCollection",
+	"features": [
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -80.4472737, 
+                     27.860302
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "yellow", 
+              "Activity": "board sailing", 
+              "Investigator or Source": "Orlando Sentinel, Feb 9, 1990. pg. B.3", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1990.02.05-Ferguson.pdf", 
+              "GEOHASH": "dhy", 
+              "Location": "Monster Hole, Sebastian Inlet", 
+              "year": 1990, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Foot bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1990.02.05-Ferguson.pdf", 
+              "Date": "5-Feb-90", 
+              "Name": "Bruce Ferguson", 
+              "Country": "USA", 
+              "Age": "33", 
+              "latitude": 27.860302, 
+              "Time": "NAN", 
+              "month": "Feb", 
+              "day": 5.0, 
+              "longitude": -80.44727370000001, 
+              "Sex": "M", 
+              "Year": 1990, 
+              "pdf": "1990.02.05-Ferguson.pdf", 
+              "Case Number": "1990.02.05", 
+              "Species": "NAN"
+       }
+	}
+	]
+}

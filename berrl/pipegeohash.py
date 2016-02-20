@@ -81,7 +81,7 @@ def map_table(csvfile,presicion,**kwargs):
 		except Exception:
 			pass
 	make_squares(hashedlist,presicion)
-	return hashedlist
+	return list2df(hashedlist)
 
 #generator function
 def gen(list):
@@ -132,13 +132,12 @@ def make_squares(data,presicion):
 		hashs.append(row[-1])
 
 
-	newlist=[['HASH','LAT1','LONG1','LAT2','LONG2','LAT3','LONG3','LAT4','LONG4']]
+	newlist=[['GEOHASH','LAT1','LONG1','LAT2','LONG2','LAT3','LONG3','LAT4','LONG4']]
 	boxes=pd.DataFrame(boxes[1:],columns=newlist[0])
 	boxes['COUNT']=1
 	boxes=boxes.groupby(newlist[0],sort=True).sum()
+	boxes=boxes.sort_values(by=['COUNT'],ascending=False)
 	boxes.to_csv('squares'+str(presicion)+'.csv')
-	boxes=boxes.reset_index()
-	boxes=boxes.values.tolist()
 
 	return data
 

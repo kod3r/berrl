@@ -1,0 +1,41 @@
+{ "type": "FeatureCollection",
+	"features": [
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -80.1373174, 
+                     26.1224386
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "blue", 
+              "Activity": "attempting to rescue a shark", 
+              "Investigator or Source": "7 News, 6/5/2015", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/2015.06.05-FortLauderdale.pdf", 
+              "GEOHASH": "dhx", 
+              "Location": "Fort Lauderdale", 
+              "year": 2015, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Puncture wound to finger", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/2015.06.05-FortLauderdale.pdf", 
+              "Date": "5-Jun-15", 
+              "Name": "female", 
+              "Country": "USA", 
+              "Age": "17", 
+              "latitude": 26.122438600000002, 
+              "Time": "NAN", 
+              "month": "Jun", 
+              "day": 5.0, 
+              "longitude": -80.13731740000001, 
+              "Sex": "F", 
+              "Year": 2015, 
+              "pdf": "2015.06.05-FortLauderdale.pdf", 
+              "Case Number": "2015.06.05", 
+              "Species": "small nurse shark"
+       }
+	}
+	]
+}

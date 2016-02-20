@@ -273,7 +273,7 @@ def make_bindings_type(filenames,color_input,colorkey):
 
 
 # makes the corresponding styled html for the map were about to load
-def make_html(filenames,color_input,colorkey):
+def make_html(filenames,color_input,colorkey,apikey):
 	block="""<html>
 <head>
 <meta charset=utf-8 />
@@ -318,7 +318,7 @@ var map = L.mapbox.map('map', 'mapbox.streets',{
 
 
 
-\n"""+make_bindings_type(filenames,color_input,colorkey)+"""\n</script>
+\n""".replace('pk.eyJ1IjoibXVycGh5MjE0IiwiYSI6ImNpam5kb3puZzAwZ2l0aG01ZW1uMTRjbnoifQ.5Znb4MArp7v3Wwrn6WFE6A',apikey)+make_bindings_type(filenames,color_input,colorkey)+"""\n</script>
 
 
 </body>
@@ -373,7 +373,7 @@ def get_colorline_marker2(color_input):
 	return colorline
 
 # THE FUNCTION YOU ACTUALLY USE WITH THIS MODULE
-def loadparsehtml(filenames,**kwargs):
+def loadparsehtml(filenames,apikey,**kwargs):
 	color=''
 	colorkey=''
 	frame=False
@@ -390,7 +390,7 @@ def loadparsehtml(filenames,**kwargs):
 				frame=True
 
 
-	block=make_html(filenames,color,colorkey)
+	block=make_html(filenames,color,colorkey,apikey)
 	if frame==True:
 		with open('index.html','w') as f:
 			f.write(block)

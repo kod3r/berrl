@@ -1,0 +1,300 @@
+{ "type": "FeatureCollection",
+	"features": [
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -81.5157535, 
+                     27.6648274
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "W.H. Gregg; L. Schultz & M. Malin, p.533", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1901.00.00-O'Brien.pdf", 
+              "GEOHASH": "dhy", 
+              "Location": "Indian River Inlet / Fort Pierce Inlet", 
+              "year": 1901, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Abdomen bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1901.00.00-O'Brien.pdf", 
+              "Date": "Summer 1901", 
+              "Name": "Michael O'Brien", 
+              "Country": "USA", 
+              "Age": "NAN", 
+              "latitude": 27.664827399999997, 
+              "Time": "NAN", 
+              "month": "NAN", 
+              "day": "NAN", 
+              "longitude": -81.5157535, 
+              "Sex": "M", 
+              "Year": 1901, 
+              "pdf": "1901.00.00-O'Brien.pdf", 
+              "Case Number": "1901.00.00", 
+              "Species": "NAN"
+       }
+	},
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -80.3256056, 
+                     27.4467056
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "R.F. Hutton", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1957.00.00.j-NV-Nauth.pdf", 
+              "GEOHASH": "dhy", 
+              "Location": "Fort Pierce, St. Lucie County", 
+              "year": 1957, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Injured by shark", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1957.00.00.j-NV-Nauth.pdf", 
+              "Date": "1957", 
+              "Name": "R. Nauth", 
+              "Country": "USA", 
+              "Age": "NAN", 
+              "latitude": 27.446705600000005, 
+              "Time": "NAN", 
+              "month": "NAN", 
+              "day": "NAN", 
+              "longitude": -80.3256056, 
+              "Sex": "NAN", 
+              "Year": 1957, 
+              "pdf": "1957.00.00.j-NV-Nauth.pdf", 
+              "Case Number": "1957.00.00.j", 
+              "Species": "1.5 m [5'] shark"
+       }
+	},
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -80.9269984, 
+                     29.0258191
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "Orlando Sentinel, 7/16/1963", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1963.07.15-Driscoll.pdf", 
+              "GEOHASH": "djn", 
+              "Location": "New Smyrna Beach, Volusia County", 
+              "year": 1963, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Left forearm bitten, surgically amputated?", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1963.07.15-Driscoll.pdf", 
+              "Date": "15-Jul-63", 
+              "Name": "Robert Driscoll", 
+              "Country": "USA", 
+              "Age": "14", 
+              "latitude": 29.0258191, 
+              "Time": "Late afternoon", 
+              "month": "Jul", 
+              "day": 15.0, 
+              "longitude": -80.9269984, 
+              "Sex": "M", 
+              "Year": 1963, 
+              "pdf": "1963.07.15-Driscoll.pdf", 
+              "Case Number": "1963.07.15", 
+              "Species": "NAN"
+       }
+	},
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -81.0228331, 
+                     29.2108147
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "Pacifc Stars and Stripes, 6/3/1975", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1975.05.20-Jones.pdf", 
+              "GEOHASH": "djn", 
+              "Location": "Daytona Beach, Volusia County", 
+              "year": 1975, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Leg bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1975.05.20-Jones.pdf", 
+              "Date": "20-May-75", 
+              "Name": "Cindy Jones", 
+              "Country": "USA", 
+              "Age": "10", 
+              "latitude": 29.2108147, 
+              "Time": "NAN", 
+              "month": "NAN", 
+              "day": 20.0, 
+              "longitude": -81.02283309999999, 
+              "Sex": "F", 
+              "Year": 1975, 
+              "pdf": "1975.05.20-Jones.pdf", 
+              "Case Number": "1975.05.20", 
+              "Species": "NAN"
+       }
+	},
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -81.4344908, 
+                     30.2936274
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "Sun, 7/13/1913; V.M. Coppleson (1962), p.249", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1911.09.17-HCRood.pdf", 
+              "GEOHASH": "djq", 
+              "Location": "Pablo Beach, Jacksonville, Duval County", 
+              "year": 1911, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Left arm & thigh bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1911.09.17-HCRood.pdf", 
+              "Date": "17-Sep-11", 
+              "Name": "Harold C. Rood", 
+              "Country": "USA", 
+              "Age": "NAN", 
+              "latitude": 30.2936274, 
+              "Time": "NAN", 
+              "month": "Sep", 
+              "day": 17.0, 
+              "longitude": -81.43449079999999, 
+              "Sex": "M", 
+              "Year": 1911, 
+              "pdf": "1911.09.17-HCRood.pdf", 
+              "Case Number": "1911.09.17", 
+              "Species": "NAN"
+       }
+	},
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -81.4299586, 
+                     30.3923949
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "H.W. Bigelow & C.W. Schroeder (1948) pp.70 & 368; V.M. Coppleson (1958) ; Randall, p.353 in Sharks & Survival; T. Helm, p.227", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1944.05.31-Shands.pdf", 
+              "GEOHASH": "djq", 
+              "Location": "Atlantic Beach, Mayport", 
+              "year": 1944, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Left calf bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1944.05.31-Shands.pdf", 
+              "Date": "31-May-44", 
+              "Name": "Mary Ann Shands", 
+              "Country": "USA", 
+              "Age": "15", 
+              "latitude": 30.392394899999996, 
+              "Time": "NAN", 
+              "month": "May", 
+              "day": 31.0, 
+              "longitude": -81.42995859999999, 
+              "Sex": "F", 
+              "Year": 1944, 
+              "pdf": "1944.05.31-Shands.pdf", 
+              "Case Number": "1944.05.31", 
+              "Species": "1.8 m [6'] blacktip shark or spinner shark"
+       }
+	},
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -79.8578601, 
+                     32.7592196
+              ]
+       }, 
+       "properties": {
+              "Area": "South Carolina", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "Clay Creswell, GSAF", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1929.08.05-McGhee.pdf", 
+              "GEOHASH": "djz", 
+              "Location": "Fort Moultrie", 
+              "year": 1929, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Left foot & ankle bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1929.08.05-McGhee.pdf", 
+              "Date": "5-Aug-29", 
+              "Name": "Robert W. McGhee, Private 1st Class, 8th Infantry", 
+              "Country": "USA", 
+              "Age": "NAN", 
+              "latitude": 32.7592196, 
+              "Time": "NAN", 
+              "month": "Aug", 
+              "day": 5.0, 
+              "longitude": -79.8578601, 
+              "Sex": "M", 
+              "Year": 1929, 
+              "pdf": "1929.08.05-McGhee.pdf", 
+              "Case Number": "1929.08.05", 
+              "Species": "NAN"
+       }
+	},
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -79.9310512, 
+                     32.7764749
+              ]
+       }, 
+       "properties": {
+              "Area": "South Carolina", 
+              "color": "red", 
+              "Activity": "bathing", 
+              "Investigator or Source": "E.M. Burton; V.M. Coppleson (1958), pp.153 & 253", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1933.08.28.a-Layton.pdf", 
+              "GEOHASH": "djz", 
+              "Location": "Pawley\u2019s Island, north of Charleston", 
+              "year": 1933, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Right heel & ankle bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1933.08.28.a-Layton.pdf", 
+              "Date": "28-Aug-33", 
+              "Name": "Kenneth Layton", 
+              "Country": "USA", 
+              "Age": "NAN", 
+              "latitude": 32.776474900000004, 
+              "Time": "NAN", 
+              "month": "Aug", 
+              "day": 28.0, 
+              "longitude": -79.9310512, 
+              "Sex": "M", 
+              "Year": 1933, 
+              "pdf": "1933.08.28.a-Layton.pdf", 
+              "Case Number": "1933.08.28.a", 
+              "Species": "NAN"
+       }
+	}
+	]
+}

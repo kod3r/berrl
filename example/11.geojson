@@ -1,0 +1,41 @@
+{ "type": "FeatureCollection",
+	"features": [
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -157.8748628, 
+                     21.325771
+              ]
+       }, 
+       "properties": {
+              "Area": "Hawaii", 
+              "color": "pink", 
+              "Activity": "catching crabs", 
+              "Investigator or Source": "G. H. Balazs & A. H. Kam; V.M. Coppleson (1958), p.250; J. Borg, p.69; L. Taylor (1993), pp. 94-95", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1902.08.08-HawaiianBoy.pdf", 
+              "GEOHASH": "87z", 
+              "Location": "Kalihi, O'ahu", 
+              "year": 1902, 
+              "Fatal": true, 
+              "Type": "Unprovoked", 
+              "Injury": "FATAL, both arms severed  ", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1902.08.08-HawaiianBoy.pdf", 
+              "Date": "8-Aug-02", 
+              "Name": "Hawaiian boy", 
+              "Country": "USA", 
+              "Age": "NAN", 
+              "latitude": 21.325771, 
+              "Time": "NAN", 
+              "month": "Aug", 
+              "day": 8.0, 
+              "longitude": -157.87486280000002, 
+              "Sex": "M", 
+              "Year": 1902, 
+              "pdf": "1902.08.08-HawaiianBoy.pdf", 
+              "Case Number": "1902.08.08", 
+              "Species": "NAN"
+       }
+	}
+	]
+}

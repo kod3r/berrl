@@ -1,0 +1,41 @@
+{ "type": "FeatureCollection",
+	"features": [
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -78.9635225, 
+                     33.6276707
+              ]
+       }, 
+       "properties": {
+              "Area": "South Carolina", 
+              "color": "light green", 
+              "Activity": "\"riding waves on a board\"", 
+              "Investigator or Source": "Charlotte Observer, 8/12/1995, p.1C; C . Creswell, GSAF", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/1995.08.10.a-Venus.pdf", 
+              "GEOHASH": "djz", 
+              "Location": "Ocean Lakes Campground, south of Myrtle Beach, Horry County", 
+              "year": 1995, 
+              "Fatal": false, 
+              "Type": "Unprovoked", 
+              "Injury": "Left foot bitten", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/1995.08.10.a-Venus.pdf", 
+              "Date": "10-Aug-95", 
+              "Name": "Venus  Lindsey ", 
+              "Country": "USA", 
+              "Age": "14", 
+              "latitude": 33.6276707, 
+              "Time": "NAN", 
+              "month": "Aug", 
+              "day": 10.0, 
+              "longitude": -78.9635225, 
+              "Sex": "F", 
+              "Year": 1995, 
+              "pdf": "1995.08.10.a-Venus.pdf", 
+              "Case Number": "1995.08.10.a", 
+              "Species": "blacktip shark"
+       }
+	}
+	]
+}

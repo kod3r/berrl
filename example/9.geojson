@@ -1,0 +1,41 @@
+{ "type": "FeatureCollection",
+	"features": [
+	{ "type": "Feature",
+       "geometry": {
+              "type": "Point", 
+              "coordinates": [
+                     -80.9369983, 
+                     29.0963729
+              ]
+       }, 
+       "properties": {
+              "Area": "Florida", 
+              "color": "green", 
+              "Activity": "canoeing", 
+              "Investigator or Source": "W.H. Gregg, p.19;      L. Schultz & M. Malin, p.533", 
+              "href": "http://sharkattackfile.net/spreadsheets/pdf_directory/ND-0078-canoeist-mail-carrier.pdf", 
+              "GEOHASH": "djn", 
+              "Location": "Mosquito Inlet (Ponce Inlet), Volusia County", 
+              "year": 1902, 
+              "Fatal": true, 
+              "Type": "Unprovoked", 
+              "Injury": "FATAL", 
+              "href formula": "http://sharkattackfile.net/spreadsheets/pdf_directory/ND-0078-canoeist-mail-carrier.pdf", 
+              "Date": "No date, Before 1902", 
+              "Name": "male", 
+              "Country": "USA", 
+              "Age": "NAN", 
+              "latitude": 29.0963729, 
+              "Time": "NAN", 
+              "month": "NAN", 
+              "day": "NAN", 
+              "longitude": -80.9369983, 
+              "Sex": "M", 
+              "Year": 0, 
+              "pdf": "ND-0078-canoeist-mail-carrier.pdf", 
+              "Case Number": "ND.0078", 
+              "Species": "NAN"
+       }
+	}
+	]
+}
