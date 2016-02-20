@@ -19,6 +19,7 @@ import itertools
 import pandas as pd
 import numpy as np
 import os
+from IPython.display import IFrame
 
 #function that reads csv file to memory
 def read(file):
@@ -707,3 +708,5 @@ def get_filetype(src,filetype):
 	        	filetypes.append(src+'/'+x)
 	return filetypes
 
+def show(url):
+	return IFrame(url, width=1000, height=600)
