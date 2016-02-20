@@ -104,7 +104,6 @@ for unique,color in itertools.izip(uniques,colors):
 		bl.parselist(a,filename) # writing object to file
 		filenames.append(filename)
 
-
 # writing the squares table and setting color to red
 squares['color']='red'
 a=bl.make_blocks(squares,list=True)
@@ -116,3 +115,6 @@ filenames.append('squares.geojson')
 #loading final html
 bl.loadparsehtml(filenames,apikey,colorkey='color')
 ```
+
+##### Output Map Below
+![]()
