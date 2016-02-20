@@ -5,7 +5,7 @@ This repository is a combination of 3 repositories I've previously made for geos
 
 Instead of using functions made for JS and ported to Python I do the reverse making pandas dataframes able to be directly input and parsed correctly into geojson and styled generally how I desire it.By doing this one can put the geospatial analysis on the shoulders of pandas and numpy and put a lot of the hang ups when dealing with geospatial data to the side or at least make them static enough to negate a lot of the confusion. 
 
-# What about the HTML/JavaScript side of mapping?
+#### What about the HTML/JavaScript side of mapping?
 Collecting all the geojson locations as you make them and inputting a color field kwarg allows you to style/pipe data into the correct HTML by simply "peaking" into the geojsons fields and outputting the correct HTML for each individual geojson. So essentially by keeping things static we can parse the HTML into working maps pretty easily and reliably. 
 
 The 3 modules include:
@@ -13,5 +13,22 @@ The 3 modules include:
 * [pipegeojson](https://github.com/murphy214/pipegeojson) - A csv/list/dataframe to geojson parser that uses the assumptions listed above to allow styling from fields in a dataframe column
 * [pipehtml](https://github.com/murphy214/pipehtml) - A module that parses the html/JavaScript for all given geojson locations peaking into the geojson to style the pop-up icon in a manner I generally desire
 
+#### Setup and Usage Notes
+To setup currently download this repository navigate to it and enter the following in terminal:
+```
+python setup.py install
+```
+Prereqs include:
+* [geohash]() (which I think requires XCode this isn't my module just the one I used for the pipegeohash module)
+* pandas/numpy
 
+##### Usage Notes
+To use berrl the way its currently implemented I recommend using Safari due to being the easiest to use local http references and on the safari bar navigate to Develop>Disable Local File Restrictions to allow for local references. 
+
+As you might have guessed this means you will have to setup a local http server which luckily isn't hard just navigate to the correct directory in terminal that you will be executing your script in and start the HTTP server with the following command in terminal:
+```
+python -m SimpleHTTPServer
+```
+
+Then you should be ready to Map!
 
