@@ -15,8 +15,8 @@ The 3 modules include:
 * [pipehtml](https://github.com/murphy214/pipehtml) - A module that parses the html/JavaScript for all given geojson locations peaking into the geojson to style the pop-up icon in a manner I generally desire
 
 #### Short Videos I think show some cool Features
-[Live Realtime Mapping Points](https://www.youtube.com/watch?v=edbpT9GZ9b0)
-[Live Realtime Mapping Linestring](https://www.youtube.com/watch?v=39VFWERpMg8)
+* [Live Realtime Mapping Points](https://www.youtube.com/watch?v=edbpT9GZ9b0)
+* [Live Realtime Mapping Linestring](https://www.youtube.com/watch?v=39VFWERpMg8)
 
 #### Setup and Usage Notes
 To setup currently download this repository navigate to it and enter the following in terminal:
