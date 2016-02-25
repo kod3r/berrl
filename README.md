@@ -1,5 +1,6 @@
 ### berrl - MapBox map output made simple with Python data structures
 ![](https://cloud.githubusercontent.com/assets/10904982/13199289/86ce2388-d7ef-11e5-856e-731d8212d2b4.png)
+![](https://cloud.githubusercontent.com/assets/10904982/13324091/44110fd8-dbaa-11e5-97d1-414d48a4f787.png)
 
 #### What is it?
 This repository is a combination of 3 repositories I've previously made for geospatial data analysis. These modules I often found myself using in conjuction with one another and figured it would be useful to make an intuitive all in one repository to take full advantage and simplify the work I've already done. The general premise is keep things static enough to where pandas data structures can be integrated in a simple and intuitive manner by making some general assumptions about how the data will be inputted. The main asssumptions being: all geospatial fields will contain 'LAT','LONG', or 'ELEV' for their representive geo fields, and assuming that points and blocks (geohashed squares) can be input in multiples (i.e. each row is 1 element) and that polygons and linestrings are input one element at a time but still in tabular style. 
