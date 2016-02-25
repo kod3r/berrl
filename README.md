@@ -17,6 +17,8 @@ The 3 modules include:
 #### Short Videos I think show some cool Features
 * [Live Realtime Mapping Points](https://www.youtube.com/watch?v=edbpT9GZ9b0)
 * [Live Realtime Mapping Linestring](https://www.youtube.com/watch?v=39VFWERpMg8)
+* [Heatmapping Over a Time Series Using Spark](https://www.youtube.com/watch?v=ZHf2gGxXLhc)
+* [Dynamic Line Styling over Time based on speed](https://www.youtube.com/watch?v=uG_rMjy-W7I)
 
 #### Setup and Usage Notes
 To setup currently download this repository navigate to it and enter the following in terminal:
